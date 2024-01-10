@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms</title>
+</head>
+<body>
+    
+<form>
+      <!-- label & input tag -->
+    <label for="fname">First Name</label> 
+    <input type="text" id="fname" name="fname" placeholder="Your Name">
+    <br><br>
+    <!-- id and for must be same  -->
+    <label for="Father">Medium Name</label>
+    <input type="text" id="Father" name="Father" value="" placeholder="Your Father Name">
+    <br><br> 
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lname" value="" placeholder="Your Surname">
+    <br><br>
+    <label for="Email">Email Address:</label>
+    <input type="text" id="fname" name="fname" value="" placeholder="Your Email">
+    <br><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" value="" placeholder="Your password">
+     <br><br>
+    <label for="bio">Bio:</label>
+    <textarea name="bio" id="bio" cols="20" rows="4" placeholder="Short Description Here"></textarea>
+    <br><br>
+    <label for="Country">Select a Country:</label>
+    <select id="Country" name="Country">
+      <option value="A">Australia</option>
+      <option value="B">Brazil</option>
+      <option value="C">Canada</option>
+      <option value="D">Denmark</option>
+      <option value="E">Egypt</option>
+      <option value="F">France</option>
+      <option value="G">Germany</option>
+      <option value="H">Hungary</option>
+      <option value="I">India</option>
+      <option value="J">Japan</option>
+      <option value="K">Korea</option>
+      <option value="L">Lebnon</option>
+      <option value="M">Mexico</option>
+      <option value="N">Norway</option>
+      <option value="O">Oman</option>
+      <option value="p">Pakistan</option>
+      <option value="p">Philippines</option>
+      <option value="Q">Qatar</option>
+      <option value="R">Russia</option>
+      <option value="S">Sweden</option>
+      <option value="T">Turkey</option>
+      <option value="U">USA</option>
+      <option value="V">Vietnam</option>
+      <option value="W">Wales</option>
+      <option value="Y">Yemen</option>
+      <option value="Z">Zimbabwe</option>
+    </select>
+     <br><br>
+    <label for="city">Select city:</label>
+    <select id="city" name="city">
+     
+      <optgroup label="Sindh">
+        <option value="karachi">karachi</option>
+        <option value="hydrabad">hydrabad</option>
+        <option value="mirpurkhas">mirpurkhas</option>
+      </optgroup>
+      
+      <optgroup label="punjab">
+        <option value="islamabad">islamabad</option>
+        <option value="lahore">lahore</option>
+        <option value="multan">multan</option>
+      </optgroup>
+
+      <optgroup label="balochistan">
+        <option value="Queta">Queta</option>
+        <option value="gwadar">Gwadar</option>
+        <option value="chaman">chaman</option>
+      </optgroup>
+
+      <optgroup label="kpk">
+        <option value="Peshawar">Peshawar</option>
+        <option value="Kohat">kohat</option>
+        <option value="gilgit">Gilgit</option>
+      </optgroup>
+    </select>
+    <br><br>
+    <label for="website">website:</label>
+    <input type="url" id="website" name="website" value="" placeholder="Enter URL">
+    <br><br>
+    <label for="birthday">Birthday:</label>
+    <input type="date" id="birthday" name="birthday">
+    <br><br>
+    
+    <label for="search">Search</label>
+    <input type="search" id="search" name="search" placeholder="search...">
+    
+    <!-- fieldset & Legend Tag -->
+    <fieldset>
+    <legend>Gender:</legend>
+    
+     <input type="radio" id="male" name="Gender" value="" placeholder="Enter URL">
+     <label for="male">Male:</label>
+     <br>
+     <input type="radio" id="female" name="Gender" value="">
+     <label for="female">Female</label>
+     <br>
+     <input type="radio" id="other" name="Gender" value="">
+     <label for="other">other</label>
+
+    </fieldset>
+
+    <fieldset>
+    <legend>Interest:</legend>
+
+    <input type="checkbox" id="music" name="Interest" value="">
+    <label for="music">music</label>
+    <br>
+    <input type="checkbox" id="sports" name="Interest">
+    <label for="sports">sports</label>
+    <br>
+    <input type="checkbox" id="reading" name="Interest" >
+    <label for="reading">reading</label>
+
+    </fieldset>
+    
+    <br><br>
+    
+    
+    <input type="submit" value="Submit">
+  </form> 
+  
+  
+</body>
+</html>
+
+ 
+
+
+
+ <!-- <search>
+    <input name="fsrch" id="fsrch" placeholder="Search W3Schools">
+  </search> -->
